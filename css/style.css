@@ -246,7 +246,7 @@ p {
   max-width: 36.25rem;
   margin:1.0625rem auto;
 }
-/*@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');*/
 
 *,
 *:after,
@@ -537,3 +537,5 @@ ol {
     transform: scale(1.2);
     opacity: 0.6;
   }
+
+  
