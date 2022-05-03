@@ -593,20 +593,42 @@ ol {
   }
 
 
-  /*
+    /*
   ==========================================
-     deal-of-the-day Section Design
+  deal-of-the-day section Design
   ==========================================
   */
   .deal-of-the-day{
-    background-image: url("../images/img/img-4.jpg");
-    background-image: center;
+    background-image:url("../images/img/img-4.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } 
 
   /*
   ==========================================
      Blog Section Design
   ==========================================
   */
+  .blog-section{
+    background-color: var(--black-color);
+  }
+
+  /*
+  ==========================================
+    footer Section Design
+  ==========================================
+  */
+  .footer{
+    background-color: var(--secondary-color);
+  }
+
+  .footer .footer-social a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+  }
+
+  .footer .footer-social a:hover i{
+    color: var(--primary-color);
+  }
